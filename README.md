@@ -39,9 +39,17 @@ A Jupyter Notebook demonstrating three AI tasks:
 A Streamlit web application for handwritten digit recognition using the trained MNIST CNN model.
 
 - **Features**:
-  - Interactive drawing canvas for inputting digits.
-  - Real-time prediction of drawn digits (0-9).
-  - Displays processed image and confidence probabilities.
+  - Interactive drawing canvas (fixed size 400x400) for inputting digits.
+  - Adjustable stroke width in sidebar settings.
+  - Real-time prediction of drawn digits (0-9) with confidence probabilities.
+  - Displays processed 28x28 image and bar chart of prediction probabilities.
+  - Image upload functionality for digit detection from files.
+  - Clear canvas button to reset the drawing area.
+  - Prediction history showing the last 5 predictions.
+  - Save drawn image feature to download as PNG.
+  - Instructions expander for user guidance.
+  - Processing spinners for better user feedback.
+  - Responsive layout with columns for optimal viewing.
   - Loads the pre-trained model from `mnist_cnn_model.h5`.
 
 #### Requirements
